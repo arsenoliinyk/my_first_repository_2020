@@ -7,6 +7,7 @@
 #include<malloc.h>
 void main()
 {
+	print("Hello world!")
 	int i, n, indexk1, k1, k2, max;
 	scanf("%d", &n);
 	int* mas = (int*)malloc(n * sizeof(int)), m = 0, sum = 0;
